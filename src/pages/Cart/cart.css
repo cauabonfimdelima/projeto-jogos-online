@@ -1,0 +1,64 @@
+.cart{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.games-cart li{
+    /* border: 1px solid red; */
+width: 100%;
+    margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.name-game{
+    width: 50%;
+}
+
+.buttons{
+    width: 50%;
+}
+
+.buttons a:first-child{
+    margin-right: 2%;
+}
+
+.buttons button:last-child{
+    background-color: red;
+}
+
+.games-cart button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s;
+    background-color: #116feb;
+    color: #FFF;
+}
+
+.games-cart a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s;
+    background-color: #116feb;
+    color: #FFF;
+}
+
+.games-cart a:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #FFF;
+}
+
+.games-cart button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #FFF;
+}
+
